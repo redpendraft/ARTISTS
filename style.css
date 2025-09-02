@@ -10,6 +10,7 @@ body {
 
 .left {
     flex: 1;
+    overflow-x: scroll; /* Добавил горизонтальный скролл */
     overflow-y: scroll;
     background-color: #f0f0f0;
     height: 100vh;
@@ -33,7 +34,6 @@ body {
     align-items: center;
 }
 
-/* Стили для временной шкалы */
 .timeline {
     position: relative;
     height: 30px;
@@ -48,8 +48,8 @@ body {
     white-space: nowrap;
 }
 
-
 .artist-details {
+    position: relative;
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 8px;
