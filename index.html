@@ -166,25 +166,23 @@
     targetImage.style.display = 'block';
   }
 
-  // Динамическое позиционирование, основанное на годах жизни и шкале
+  // Динамическое позиционирование
   document.addEventListener('DOMContentLoaded', () => {
-    const timeline = document.querySelector('.timeline');
     const artistDetails = document.querySelectorAll('.artist-details');
-    const startYear = parseInt(timeline.dataset.startYear);
-    const endYear = parseInt(timeline.dataset.endYear);
-    const totalYears = endYear - startYear;
-
-    // Этот расчет делает шкалу адаптивной
-    const timelineWidth = timeline.getBoundingClientRect().width;
-    const pixelsPerYear = timelineWidth / totalYears;
+    
+    // Здесь мы задаем начальный год для выравнивания
+    const startYear = 1250; 
 
     artistDetails.forEach(detail => {
       const birthYear = parseInt(detail.dataset.birth);
       const deathYear = parseInt(detail.dataset.death);
       const lifeSpan = deathYear - birthYear;
 
-      const birthOffset = (birthYear - startYear) * pixelsPerYear;
-      const widthInPixels = lifeSpan * pixelsPerYear;
+      // Рассчитываем отступ слева, чтобы блок начинался в нужном месте
+      const birthOffset = (birthYear - startYear) * 10;
+      
+      // Ширина блока равна возрасту, умноженному на 10
+      const widthInPixels = lifeSpan * 10; 
 
       detail.style.marginLeft = birthOffset + 'px';
       detail.style.width = widthInPixels + 'px';
