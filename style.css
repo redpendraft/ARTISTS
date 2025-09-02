@@ -10,7 +10,7 @@ body {
 
 .left {
     flex: 1;
-    overflow-y: scroll; /* Добавил скролл для вертикального просмотра */
+    overflow-y: scroll;
     background-color: #f0f0f0;
     height: 100vh;
     padding: 20px;
@@ -28,7 +28,7 @@ body {
     overflow: auto;
     padding: 20px;
     box-sizing: border-box;
-    display: flex; /* Используем flexbox для центрирования изображения */
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -39,9 +39,6 @@ body {
     height: 30px;
     border-bottom: 2px solid #999;
     margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .year-marker {
@@ -49,15 +46,14 @@ body {
     font-size: 14px;
     color: #555;
     white-space: nowrap;
-    transform: none; /* Убираем поворот */
 }
 
 
 .artist-details {
     margin-top: 10px;
     margin-bottom: 20px;
-    border-radius: 8px; /* Скругленные углы */
-    overflow: hidden; /* Скрываем излишки */
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .artist {
@@ -102,6 +98,6 @@ body {
 #target-image {
     max-height: 90%;
     max-width: 90%;
-    object-fit: contain; /* Сохраняем пропорции изображения */
+    object-fit: contain;
     display: none;
 }
