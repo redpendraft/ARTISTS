@@ -25,7 +25,7 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    height: 90vh;
+    height: 800px;
     overflow: auto;
     padding: 20px;
     box-sizing: border-box;
@@ -101,4 +101,5 @@ body {
     object-fit: contain;
     display: none;
 }
+
 
