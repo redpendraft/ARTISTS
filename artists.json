@@ -45,14 +45,24 @@
     "description": "Итальянский живописец эпохи Возрождения, представитель флорентийской школы. Известен своими грациозными и лирическими работами, такими как \"Весна\" и \"Рождение Венеры\", которые стали символами Раннего Возрождения.",
     "artworks": [
       {
-        "title": "«Весна»",
+        "title": "Весна",
         "date": "1480",
         "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Botticelli-primavera.jpg"
       },
       {
-        "title": "«Рождение Венеры»",
+        "title": "Рождение Венеры",
         "date": "1485",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1920px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?uselang=ru"
+      },
+      {
+        "title": "Венера и Марс",
+        "date": "1485",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Venus_and_Mars.jpg?uselang=ru"
+      },
+      {
+        "title": "Оплакивание Христа",
+        "date": "1490-92",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Sandro_Botticelli_016.jpg?uselang=ru"
       }
     ]
   },
