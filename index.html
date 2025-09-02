@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Художники и временная шкала</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="left">
+        <div class="timeline" data-start-year="1250" data-end-year="1950">
+            <div class="year-marker" style="left: 0;">1250</div>
+            <div class="year-marker">1300</div>
+            <div class="year-marker">1350</div>
+            <div class="year-marker">1400</div>
+            <div class="year-marker">1450</div>
+            <div class="year-marker">1500</div>
+            <div class="year-marker">1550</div>
+            <div class="year-marker">1600</div>
+            <div class="year-marker">1650</div>
+            <div class="year-marker">1700</div>
+            <div class="year-marker">1750</div>
+            <div class="year-marker">1800</div>
+            <div class="year-marker">1850</div>
+            <div class="year-marker">1900</div>
+            <div class="year-marker" style="left: calc(100% - 40px);">1950</div>
+        </div>
+
+        <div id="artists-container">
+            </div>
+    </div>
+
+    <div class="right">
+        <img id="target-image" src="" alt="Выбранное изображение">
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const artistsContainer = document.getElementById('artists-container');
+        const timeline = document.querySelector('.timeline');
+        const startYear = parseInt(timeline.dataset.startYear);
+        const endYear = parseInt(timeline.dataset.endYear);
+        const totalYears = endYear - startYear;
+        let pixelsPerYear;
+
+        // Функция для динамической генерации HTML
+        function createArtistElement(artist) {
+            const details = document.createElement('details');
+            details.classList.add('artist-details');
+
+            const summary = document.createElement('summary');
+            summary.classList.add('artist');
+            summary.innerHTML = `${artist.name} <i>(${artist.years})</i>`;
+
+            const artsDiv = document.createElement('div');
+            artsDiv.classList.add('arts');
+
+            const description = document.createElement('p');
+            description.textContent = artist.description;
+            artsDiv.appendChild(description);
+
+            artist.artworks.forEach(art => {
+                const button = document.createElement('button');
+                button.classList.add('art');
+                button.textContent = `«${art.title}» ${art.date}`;
+                button.onclick = () => showImage(art.image);
+                artsDiv.appendChild(button);
+            });
+
+            details.appendChild(summary);
+            details.appendChild(artsDiv);
+
+            return details;
+        }
+
+        // Функция для отображения изображения
+        function showImage(imageSrc) {
+            const targetImage = document.getElementById('target-image');
+            targetImage.src = imageSrc;
+            targetImage.style.display = 'block';
+        }
+
+        // Загрузка данных из JSON-файла
+        fetch('artists.json')
+            .then(response => response.json())
+            .then(data => {
+                const timelineWidth = timeline.getBoundingClientRect().width;
+                pixelsPerYear = timelineWidth / totalYears;
+
+                data.forEach(artistData => {
+                    const artistElement = createArtistElement(artistData);
+                    const lifeSpan = artistData.death - artistData.birth;
+                    const birthOffset = (artistData.birth - startYear) * pixelsPerYear;
+                    const widthInPixels = Math.max(lifeSpan * pixelsPerYear, 100); // Минимальная ширина 100px
+
+                    artistElement.style.marginLeft = `${birthOffset}px`;
+                    artistElement.style.width = `${widthInPixels}px`;
+                    artistsContainer.appendChild(artistElement);
+                });
+            })
+            .catch(error => console.error('Ошибка при загрузке данных:', error));
+    });
+
+</script>
+
+</body>
+</html>

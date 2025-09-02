@@ -1,0 +1,649 @@
+[
+  {
+    "name": "Джотто ди БОНДОНЕ",
+    "years": "1267 - 1337",
+    "birth": 1267,
+    "death": 1337,
+    "description": "Итальянский художник и архитектор раннего Возрождения, считается одним из ключевых мастеров, которые заложили основы нового художественного языка. Отказавшись от византийских канонов, он придал своим фигурам объем и эмоциональную глубину.",
+    "artworks": [
+      {
+        "title": "«Оплакивание Христа»",
+        "date": "1305",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Giotto_-_Scrovegni_-_36_-_Lamentation_%28The_Mourning_of_Christ%29.jpg"
+      },
+      {
+        "title": "«Чудо источника»",
+        "date": "1300",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giotto_-_Miracle_of_the_Spring_%28c.1297-1300%29.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Ян ВАН ЭЙК",
+    "years": "1390 - 1441",
+    "birth": 1390,
+    "death": 1441,
+    "description": "Нидерландский живописец эпохи Раннего Возрождения, мастер портрета, религиозных сюжетов и пейзажа. Считается одним из первых, кто начал активно использовать масляные краски, что позволило достичь невероятной детализации и глубины цвета.",
+    "artworks": [
+      {
+        "title": "«Портрет четы Арнольфини»",
+        "date": "1434",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Jan_van_Eyck_-_The_Arnolfini_Portrait_-_Google_Art_Project.jpg"
+      },
+      {
+        "title": "«Гентский алтарь»",
+        "date": "1432",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ghent_altarpiece_1.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Сандро БОТТИЧЕЛЛИ",
+    "years": "1445 - 1510",
+    "birth": 1445,
+    "death": 1510,
+    "description": "Итальянский живописец эпохи Возрождения, представитель флорентийской школы. Известен своими грациозными и лирическими работами, такими как \"Весна\" и \"Рождение Венеры\", которые стали символами Раннего Возрождения.",
+    "artworks": [
+      {
+        "title": "«Весна»",
+        "date": "1480",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Botticelli-primavera.jpg"
+      },
+      {
+        "title": "«Рождение Венеры»",
+        "date": "1485",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1920px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Леонардо ДА ВИНЧИ",
+    "years": "1452 - 1519",
+    "birth": 1452,
+    "death": 1519,
+    "description": "Итальянский художник, изобретатель, ученый и мыслитель. Идеальный пример \"универсального человека\" эпохи Возрождения. Его работы, такие как \"Мона Лиза\" и \"Тайная вечеря\", оказали огромное влияние на мировое искусство.",
+    "artworks": [
+      {
+        "title": "Мона Лиза",
+        "date": "1503-1519",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+      },
+      {
+        "title": "Тайная вечеря",
+        "date": "1495-1498",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Leonardo_da_Vinci_-_The_Last_Supper_-_High_Resolution.jpg/1280px-Leonardo_da_Vinci_-_The_Last_Supper_-_High_Resolution.jpg"
+      },
+      {
+        "title": "Витрувианский человек",
+        "date": "1490",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Leonardo_da_Vinci_-_Vitruvian_Man.jpg/1280px-Leonardo_da_Vinci_-_Vitruvian_Man.jpg"
+      }
+    ]
+  },
+  {
+    "name": "МИКЕЛАНДЖЕЛО",
+    "years": "1475 - 1564",
+    "birth": 1475,
+    "death": 1564,
+    "description": "Итальянский скульптор, художник, архитектор, поэт и инженер. Один из самых влиятельных деятелей искусства эпохи Высокого Возрождения. Его работы, такие как скульптура \"Давид\" и фрески Сикстинской капеллы, стали вершиной человеческого творчества.",
+    "artworks": [
+      {
+        "title": "Скульптура \"Давид\"",
+        "date": "1501-1504",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/David_-_Michelangelo.jpg/1280px-David_-_Michelangelo.jpg"
+      },
+      {
+        "title": "Сотворение Адама",
+        "date": "1508-1512",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1280px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg"
+      },
+      {
+        "title": "Пьета",
+        "date": "1498-1499",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Piet%C3%A0_by_Michelangelo_St_Peters_Basilica.jpg/1280px-Piet%C3%A0_by_Michelangelo_St_Peters_Basilica.jpg"
+      }
+    ]
+  },
+  {
+    "name": "РАФАЭЛЬ Санти",
+    "years": "1483 - 1520",
+    "birth": 1483,
+    "death": 1520,
+    "description": "Итальянский живописец и архитектор, представитель Умбрийской школы. Его работы славятся своей гармонией, ясностью композиции и красотой. Наиболее известны его Мадонны и фрески в Ватикане.",
+    "artworks": [
+      {
+        "title": "Сикстинская Мадонна",
+        "date": "1512",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Raphael_-_Madonna_Sistina.jpg/1280px-Raphael_-_Madonna_Sistina.jpg"
+      },
+      {
+        "title": "Афинская школа",
+        "date": "1509-1511",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Raffaello_Sanzio_-_The_School_of_Athens_-_Vatican_Museums_-_2015.jpg/1280px-Raffaello_Sanzio_-_The_School_of_Athens_-_Vatican_Museums_-_2015.jpg"
+      },
+      {
+        "title": "Автопортрет",
+        "date": "1506",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Self-Portrait_by_Raphael%2C_Uffizi_Gallery.jpg/1280px-Self-Portrait_by_Raphael%2C_Uffizi_Gallery.jpg"
+      }
+    ]
+  },
+  {
+    "name": "ТИЦИАН",
+    "years": "1488 - 1576",
+    "birth": 1488,
+    "death": 1576,
+    "description": "Итальянский живописец, один из величайших представителей венецианской школы. Его мастерство в использовании цвета и света было непревзойденным. Тициан был известен своими портретами, а также мифологическими и религиозными полотнами.",
+    "artworks": [
+      {
+        "title": "Венера Урбинская",
+        "date": "1538",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Titian_-_Venus_of_Urbino_-_Google_Art_Project.jpg"
+      },
+      {
+        "title": "Динарий кесаря",
+        "date": "1516",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tizian_078.jpg"
+      }
+    ]
+  },
+  {
+    "name": "КАРАВАДЖО",
+    "years": "1571 - 1610",
+    "birth": 1571,
+    "death": 1610,
+    "description": "Итальянский художник, реформатор европейской живописи XVII века, один из крупнейших мастеров барокко. Его драматические работы, наполненные контрастами света и тени, оказали огромное влияние на последующие поколения художников.",
+    "artworks": [
+      {
+        "title": "Давид с головой Голиафа",
+        "date": "1607",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Caravaggio_-_David_and_Goliath_-_Google_Art_Project.jpg"
+      },
+      {
+        "title": "Призвание апостола Матфея",
+        "date": "1600",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/The_Calling_of_Saint_Matthew.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Диего ВЕЛАСКЕС",
+    "years": "1599 - 1660",
+    "birth": 1599,
+    "death": 1660,
+    "description": "Испанский живописец, один из величайших мастеров испанского Золотого века. Придворный художник короля Филиппа IV, прославился своими портретами и бытовыми сценами. Его работы отличаются невероятным реализмом и виртуозной техникой.",
+    "artworks": [
+      {
+        "title": "Менины",
+        "date": "1656",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1280px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg"
+      },
+      {
+        "title": "Сдача Бреды",
+        "date": "1635",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Diego_Vel%C3%A1zquez_-_The_Surrender_of_Breda_-_Google_Art_Project_edited.jpg/1280px-Diego_Vel%C3%A1zquez_-_The_Surrender_of_Breda_-_Google_Art_Project_edited.jpg"
+      }
+    ]
+  },
+  {
+    "name": "РЕМБРАНДТ ван Рейн",
+    "years": "1606 - 1669",
+    "birth": 1606,
+    "death": 1669,
+    "description": "Нидерландский живописец, гравер и рисовальщик, один из величайших мастеров барокко. Работал в различных жанрах, но особенно известен своими портретами, в том числе автопортретами, и библейскими сценами.",
+    "artworks": [
+      {
+        "title": "«Урок анатомии доктора Тульпа»",
+        "date": "1632",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Rembrandt_Harmensz._van_Rijn_-_The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp_-_Google_Art_Project.jpg/1280px-Rembrandt_Harmensz._van_Rijn_-_The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp_-_Google_Art_Project.jpg"
+      },
+      {
+        "title": "«Ночной дозор»",
+        "date": "1642",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Night_Watch_-_HD.jpg/1280px-The_Night_Watch_-_HD.jpg"
+      },
+      {
+        "title": "«Еврейская невеста»",
+        "date": "1667",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Rembrandt_-_The_Jewish_Bride.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Уильям ТЁРНЕР",
+    "years": "1775 - 1851",
+    "birth": 1775,
+    "death": 1851,
+    "description": "Английский живописец, мастер романтического пейзажа. Считается одним из предвестников импрессионизма. Его работы славятся светом, воздушностью и смелыми мазками.",
+    "artworks": [
+      {
+        "title": "«Последний рейс корабля «Отважный»",
+        "date": "1838",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/The_Fighting_Temeraire%2C_J.M.W_Turner%2C_1838.jpg/1280px-The_Fighting_Temeraire%2C_J.M.W_Turner%2C_1838.jpg"
+      },
+      {
+        "title": "«Дождь, пар и скорость»",
+        "date": "1844",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Rain_Steam_and_Speed_The_Great_Western_Railway_JMW_Turner.jpg/1280px-Rain_Steam_and_Speed_The_Great_Western_Railway_JMW_Turner.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Эжен ДЕЛАКРУА",
+    "years": "1798 - 1863",
+    "birth": 1798,
+    "death": 1863,
+    "description": "Французский живописец и график, один из крупнейших представителей романтизма. Его работы отличаются драматизмом, яркими красками и эмоциональной насыщенностью.",
+    "artworks": [
+      {
+        "title": "«Свобода, ведущая народ»",
+        "date": "1830",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/1280px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg"
+      },
+      {
+        "title": "«Смерть Сарданапала»",
+        "date": "1827",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Delacroix-The_Death_of_Sardanapalus.jpg/1280px-Delacroix-The_Death_of_Sardanapalus.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Гюстав КУРБЕ",
+    "years": "1819 - 1877",
+    "birth": 1819,
+    "death": 1877,
+    "description": "Французский живописец, основоположник реализма в живописи. Отверг академические каноны, стремясь изображать повседневную жизнь и социальные проблемы с предельной честностью и объективностью.",
+    "artworks": [
+      {
+        "title": "«Мастерская художника»",
+        "date": "1855",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Gustave_Courbet_-_L%27Atelier_du_peintre_%281855%29.jpg/1280px-Gustave_Courbet_-_L%27Atelier_du_peintre_%281855%29.jpg"
+      },
+      {
+        "title": "«Дробильщики камня»",
+        "date": "1849",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Gustave_Courbet_-_The_Stone_Breakers_-_Google_Art_Project.jpg/1280px-Gustave_Courbet_-_The_Stone_Breakers_-_Google_Art_Project.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Уильям Холман ХАНТ",
+    "years": "1827 - 1910",
+    "birth": 1827,
+    "death": 1910,
+    "description": "Английский художник, один из основателей Братства прерафаэлитов. В своих работах стремился к максимальной детализации и символизму, часто обращаясь к библейским и литературным сюжетам.",
+    "artworks": [
+      {
+        "title": "«Светоч мира»",
+        "date": "1853",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/William_Holman_Hunt_-_The_Light_of_the_World.jpg/1280px-William_Holman_Hunt_-_The_Light_of_the_World.jpg"
+      },
+      {
+        "title": "«Наемный пастух»",
+        "date": "1851",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/William_Holman_Hunt_-_The_Hireling_Shepherd.jpg/1280px-William_Holman_Hunt_-_The_Hireling_Shepherd.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Данте Габриэль РОССЕТТИ",
+    "years": "1828 - 1882",
+    "birth": 1828,
+    "death": 1882,
+    "description": "Английский поэт, художник и один из основателей Братства прерафаэлитов. В его творчестве преобладали романтические, мистические и религиозные мотивы, часто с изображением идеализированных женских образов.",
+    "artworks": [
+      {
+        "title": "«Беата Беатрикс»",
+        "date": "1870",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Dante_Gabriel_Rossetti_-_Beata_Beatrix.jpg/1280px-Dante_Gabriel_Rossetti_-_Beata_Beatrix.jpg"
+      },
+      {
+        "title": "«Леди Лилит»",
+        "date": "1868",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Dante_Gabriel_Rossetti_-_Lady_Lilit.jpg/1280px-Dante_Gabriel_Rossetti_-_Lady_Lilit.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Джон Эверетт МИЛЛЕ",
+    "years": "1829 - 1896",
+    "birth": 1829,
+    "death": 1896,
+    "description": "Английский художник, один из основателей Братства прерафаэлитов. Начинал как реалист, но позже перешел к более романтическому и академическому стилю.",
+    "artworks": [
+      {
+        "title": "«Офелия»",
+        "date": "1852",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/John_Everett_Millais_-_Ophelia.jpg/1280px-John_Everett_Millais_-_Ophelia.jpg"
+      },
+      {
+        "title": "«Христос в доме своих родителей»",
+        "date": "1850",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/John_Everett_Millais_-_Christ_in_the_House_of_His_Parents_%281850%29.jpg/1280px-John_Everett_Millais_-_Christ_in_the_House_of_His_Parents_%281850%29.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Камиль ПИССАРРО",
+    "years": "1830 - 1903",
+    "birth": 1830,
+    "death": 1903,
+    "description": "Французский живописец, один из основателей импрессионизма. Известен своими городскими и сельскими пейзажами, которые он писал с натуры, передавая изменчивость света и атмосферы.",
+    "artworks": [
+      {
+        "title": "«Бульвар Монмартр. Весеннее утро»",
+        "date": "1897",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Pissarro_Boulevard_Montmartre_Spring_Morning.jpg/1280px-Pissarro_Boulevard_Montmartre_Spring_Morning.jpg"
+      },
+      {
+        "title": "«Сад Тюильри зимним днём»",
+        "date": "1899",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Camille_Pissarro_-_The_Garden_of_the_Tuileries_on_a_Winter_Afternoon.jpg/1280px-Camille_Pissarro_-_The_Garden_of_the_Tuileries_on_a_Winter_Afternoon.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Эдуард МАНЕ",
+    "years": "1832 - 1883",
+    "birth": 1832,
+    "death": 1883,
+    "description": "Французский живописец, один из главных зачинателей импрессионизма. Его смелые и новаторские работы, такие как \"Завтрак на траве\", вызвали скандал в академических кругах, но открыли путь для современного искусства.",
+    "artworks": [
+      {
+        "title": "«Завтрак на траве»",
+        "date": "1863",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Edouard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe.jpg"
+      },
+      {
+        "title": "«Бар в Фоли-Бержер»",
+        "date": "1882",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Manet%2C_Edouard_-_A_Bar_at_the_Folies-Berg%C3%A8re.jpg/1280px-Manet%2C_Edouard_-_A_Bar_at_the_Folies-Berg%C3%A8re.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Джеймс Мак-Нейл УИСТЛЕР",
+    "years": "1834 - 1903",
+    "birth": 1834,
+    "death": 1903,
+    "description": "Американский художник, работавший в Великобритании. Один из ключевых представителей эстетизма. Считал, что искусство должно быть самоценным и нести красоту, а не поучение. Известен своими \"ноктюрнами\" и \"симфониями\".",
+    "artworks": [
+      {
+        "title": "«Аранжировка в сером и чёрном № 1»",
+        "date": "1871",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Whistler%27s_Mother_-_James_McNeill_Whistler.jpg/1280px-Whistler%27s_Mother_-_James_McNeill_Whistler.jpg"
+      },
+      {
+        "title": "«Ноктюрн в черном и золотом»",
+        "date": "1875",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nocturne_in_Black_and_Gold%2C_The_Falling_Rocket.jpg/1280px-Nocturne_in_Black_and_Gold%2C_The_Falling_Rocket.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Эдгар ДЕГА",
+    "years": "1834 - 1917",
+    "birth": 1834,
+    "death": 1917,
+    "description": "Французский живописец, один из основателей импрессионизма. Однако его стиль отличается от других импрессионистов; он уделял особое внимание движению и реалистичному изображению человеческих фигур, особенно балерин.",
+    "artworks": [
+      {
+        "title": "«Танцевальный класс»",
+        "date": "1874",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Edgar_Degas_-_La_Classe_de_danse_-_1874.jpg"
+      },
+      {
+        "title": "«Абсент»",
+        "date": "1876",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Edgar_Degas_-_L%27Absinthe.jpg/1280px-Edgar_Degas_-_L%27Absinthe.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Альфред СИСЛЕЙ",
+    "years": "1839 - 1899",
+    "birth": 1839,
+    "death": 1899,
+    "description": "Французский художник английского происхождения, один из ключевых представителей импрессионизма. Он специализировался на пейзажах, изображая сельскую местность и виды Сены с тончайшей передачей атмосферы и света.",
+    "artworks": [
+      {
+        "title": "«Мост в Аржантее»",
+        "date": "1872",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Alfred_Sisley_-_Bridge_at_Argenteuil.jpg/1280px-Alfred_Sisley_-_Bridge_at_Argenteuil.jpg"
+      },
+      {
+        "title": "«Наводнение в Порт-Марли»",
+        "date": "1876",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Alfred_Sisley_-_The_Flood_at_Port-Marly.jpg/1280px-Alfred_Sisley_-_The_Flood_at_Port-Marly.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Поль СЕЗАНН",
+    "years": "1839 - 1906",
+    "birth": 1839,
+    "death": 1906,
+    "description": "Французский художник-постимпрессионист, чьи работы заложили основу для перехода от импрессионизма к кубизму и модернизму. Стремился к структурной ясности и геометрической форме, рассматривая природу через призму основных фигур.",
+    "artworks": [
+      {
+        "title": "«Игроки в карты»",
+        "date": "1890",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Paul_C%C3%A9zanne%2C_1890%2C_The_Card_Players%2C_oil_on_canvas%2C_65.4_x_81.9_cm%2C_Metropolitan_Museum_of_Art%2C_New_York.jpg/1280px-Paul_C%C3%A9zanne%2C_1890%2C_The_Card_Players%2C_oil_on_canvas%2C_65.4_x_81_cm%2C_Metropolitan_Museum_of_Art%2C_New_York.jpg"
+      },
+      {
+        "title": "«Гора Сент-Виктуар»",
+        "date": "1904",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Paul_C%C3%A9zanne_-_Montagne_Sainte-Victoire_-_Google_Art_Project.jpg/1280px-Paul_C%C3%A9zanne_-_Montagne_Sainte-Victoire_-_Google_Art_Project.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Клод МОНЕ",
+    "years": "1840 - 1926",
+    "birth": 1840,
+    "death": 1926,
+    "description": "Французский живописец, один из основателей импрессионизма. Известен своей серией картин, в которых он многократно писал один и тот же объект, изучая изменения света и атмосферы.",
+    "artworks": [
+      {
+        "title": "«Впечатление. Восход солнца»",
+        "date": "1872",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/1280px-Monet_-_Impression%2C_Sunrise.jpg"
+      },
+      {
+        "title": "«Водяные лилии»",
+        "date": "1916",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Monet_Water_Lilies_1916-20.jpg/1280px-Monet_Water_Lilies_1916-20.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Пьер Огюст РЕНУАР",
+    "years": "1841 - 1919",
+    "birth": 1841,
+    "death": 1919,
+    "description": "Французский живописец, скульптор и график, один из главных представителей импрессионизма. Известен своими портретами и сценами из повседневной жизни, полными радости, света и чувственности.",
+    "artworks": [
+      {
+        "title": "«Завтрак гребцов»",
+        "date": "1881",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Pierre-Auguste_Renoir%2C_Le_D%C3%A9jeuner_des_canotiers.jpg/1280px-Pierre-Auguste_Renoir%2C_Le_D%C3%A9jeuner_des_canotiers.jpg"
+      },
+      {
+        "title": "«Бал в Мулен де ла Галетт»",
+        "date": "1876",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Pierre-Auguste_Renoir%2C_Bal_du_moulin_de_la_Galette.jpg/1280px-Pierre-Auguste_Renoir%2C_Bal_du_moulin_de_la_Galette.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Поль ГОГЕН",
+    "years": "1848 - 1903",
+    "birth": 1848,
+    "death": 1903,
+    "description": "Французский живописец, один из главных представителей постимпрессионизма. Известен своими работами, вдохновленными его путешествиями на Таити, где он искал примитивные и экзотические мотивы.",
+    "artworks": [
+      {
+        "title": "«Видение после проповеди»",
+        "date": "1888",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Paul_Gauguin%2C_1888%2C_Vision_After_the_Sermon%2C_oil_on_canvas%2C_72.2_x_91.1_cm%2C_National_Gallery_of_Scotland%2C_Edinburgh.jpg/1280px-Paul_Gauguin%2C_1888%2C_Vision_After_the_Sermon%2C_oil_on_canvas%2C_72.2_x_91.1_cm%2C_National_Gallery_of_Scotland%2C_Edinburgh.jpg"
+      },
+      {
+        "title": "«Откуда мы? Кто мы? Куда мы идем?»",
+        "date": "1897",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Where_Do_We_Come_From%3F_What_Are_We%3F_Where_Are_We_Going%3F_by_Paul_Gauguin.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Джон Уильям УОТЕРХАУС",
+    "years": "1849 - 1917",
+    "birth": 1849,
+    "death": 1917,
+    "description": "Английский художник, писавший в стиле прерафаэлитов, но уже в более позднюю эпоху. Известен своими полотнами, вдохновленными мифологией, легендами и литературой, часто с изображением сильных женских образов.",
+    "artworks": [
+      {
+        "title": "«Леди из Шалот»",
+        "date": "1888",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/John_William_Waterhouse_-_The_Lady_of_Shalott_%281888%29.jpg/1280px-John_William_Waterhouse_-_The_Lady_of_Shalott_%281888%29.jpg"
+      },
+      {
+        "title": "«Гилас и нимфы»",
+        "date": "1896",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Hylas_and_the_Nymphs_%281896%29_by_John_William_Waterhouse.jpg/1280px-John_William_Waterhouse_-_Hylas_and_the_Nymphs_%281896%29_by_John_William_Waterhouse.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Винсент ВАН ГОГ",
+    "years": "1853 - 1890",
+    "birth": 1853,
+    "death": 1890,
+    "description": "Нидерландский художник-постимпрессионист. Его стиль отличается яркими, насыщенными цветами и экспрессивными мазками. Его работы, такие как «Звёздная ночь», оказали огромное влияние на всё последующее искусство.",
+    "artworks": [
+      {
+        "title": "«Звёздная ночь»",
+        "date": "1889",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/The_Starry_Night_-_Van_Gogh_-_Google_Art_Project.jpg/1280px-The_Starry_Night_-_Van_Gogh_-_Google_Art_Project.jpg"
+      },
+      {
+        "title": "«Автопортрет в соломенной шляпе»",
+        "date": "1887",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Van_Gogh_-_Self-Portrait_with_Straw_Hat_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Self-Portrait_with_Straw_Hat_-_Google_Art_Project.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Джон Сингер САРДЖЕНТ",
+    "years": "1856 - 1925",
+    "birth": 1856,
+    "death": 1925,
+    "description": "Американский художник, один из ведущих портретистов своего времени. Его стиль сочетал классические традиции с элементами импрессионизма. Известен своей виртуозной техникой и умением передавать характер.",
+    "artworks": [
+      {
+        "title": "«Портрет мадам Икс»",
+        "date": "1884",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Madame_X_%28Madame_Pierre_Gautreau%29%2C_John_Singer_Sargent%2C_1884.jpg/1280px-Madame_X_%28Madame_Pierre_Gautreau%29%2C_John_Singer_Sargent%2C_1884.jpg"
+      },
+      {
+        "title": "«Эль Халео»",
+        "date": "1882",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/El_Jaleo_by_John_Singer_Sargent.jpg/1280px-El_Jaleo_by_John_Singer_Sargent.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Густав КЛИМТ",
+    "years": "1862 - 1918",
+    "birth": 1862,
+    "death": 1918,
+    "description": "Австрийский художник, один из самых известных представителей модерна. Его работы, часто с использованием сусального золота, отличаются декоративностью, символизмом и чувственным эротизмом.",
+    "artworks": [
+      {
+        "title": "«Поцелуй»",
+        "date": "1908",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt.jpg/1280px-The_Kiss_-_Gustav_Klimt.jpg"
+      },
+      {
+        "title": "«Портрет Адели Блох-Бауэр I»",
+        "date": "1907",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Gustav_Klimt_-_Portrait_of_Adele_Bloch-Bauer_I%2C_1907.jpg/1280px-Gustav_Klimt_-_Portrait_of_Adele_Bloch-Bauer_I%2C_1907.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Анри МАТИСС",
+    "years": "1869 - 1954",
+    "birth": 1869,
+    "death": 1954,
+    "description": "Французский художник и скульптор, лидер фовизма, одного из первых течений модернизма. Известен своим смелым использованием цвета, упрощением формы и декоративностью.",
+    "artworks": [
+      {
+        "title": "«Танец»",
+        "date": "1910",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/The_Dance_by_Henri_Matisse.jpg/1280px-The_Dance_by_Henri_Matisse.jpg"
+      },
+      {
+        "title": "«Танец II»",
+        "date": "1932",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Matisse_La_danse_Barnes.jpg/1280px-Matisse_La_danse_Barnes.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Казимир МАЛЕВИЧ",
+    "years": "1878 - 1935",
+    "birth": 1878,
+    "death": 1935,
+    "description": "Русский и советский авангардист, основоположник супрематизма, одного из крупнейших направлений в абстрактном искусстве. Его работы, такие как \"Черный квадрат\", стали символами нового искусства.",
+    "artworks": [
+      {
+        "title": "«Черный квадрат»",
+        "date": "1915",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Kazimir_Malevich_-_Black_Square%2C_1915_%28State_Russian_Museum%2C_St._Petersburg%29.jpg/1280px-Kazimir_Malevich_-_Black_Square%2C_1915_%28State_Russian_Museum%2C_St._Petersburg%29.jpg"
+      },
+      {
+        "title": "«Красная конница»",
+        "date": "1932",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Malevich_The_Red_Cavalry.jpg/1280px-Malevich_The_Red_Cavalry.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Пабло ПИКАССО",
+    "years": "1881 - 1973",
+    "birth": 1881,
+    "death": 1973,
+    "description": "Испанский художник, один из самых влиятельных и известных художников XX века. Сооснователь кубизма, создал множество стилей, включая сюрреализм и неоклассицизм. Его работы стали определяющими для модернизма.",
+    "artworks": [
+      {
+        "title": "«Герника»",
+        "date": "1937",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Guernica_by_Pablo_Picasso%2C_Museo_Reina_Sof%C3%ADa%2C_Madrid.jpg/1280px-Guernica_by_Pablo_Picasso%2C_Museo_Reina_Sof%C3%ADa%2C_Madrid.jpg"
+      },
+      {
+        "title": "«Авиньонские девицы»",
+        "date": "1907",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Les_Demoiselles_d%27Avignon%2C_by_Pablo_Picasso%2C_from_C2RMF.jpg/1280px-Les_Demoiselles_d%27Avignon%2C_by_Pablo_Picasso%2C_from_C2RMF.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Сальвадор ДАЛИ",
+    "years": "1904 - 1989",
+    "birth": 1904,
+    "death": 1989,
+    "description": "Испанский художник-сюрреалист, один из самых известных и эксцентричных деятелей искусства XX века. Его работы характеризуются причудливыми, фантастическими образами, вдохновленными сновидениями и подсознанием.",
+    "artworks": [
+      {
+        "title": "«Постоянство памяти»",
+        "date": "1931",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Persistence_of_Memory_by_Salvador_Dal%C3%AD%2C_1931.jpg/1280px-The_Persistence_of_Memory_by_Salvador_Dal%C3%AD%2C_1931.jpg"
+      },
+      {
+        "title": "«Сон, вызванный полётом пчелы...»",
+        "date": "1944",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Salvador_Dal%C3%AD%2C_1944%2C_Dream_Caused_by_the_Flight_of_a_Bee_Around_a_Pomegranate_a_Second_Before_Awakening%2C_oil_on_panel%2C_51_%C3%97_41_cm%2C_Museo_Thyssen-Bornemisza%2C_Madrid.jpg/1280px-Salvador_Dal%C3%AD%2C_1944%2C_Dream_Caused_by_the_Flight_of_a_Bee_Around_a_Pomegranate_a_Second_Before_Awakening%2C_oil_on_panel%2C_51_%C3%97_41_cm%2C_Museo_Thyssen-Bornemisza%2C_Madrid.jpg"
+      }
+    ]
+  }
+]
