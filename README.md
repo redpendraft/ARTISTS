@@ -1,0 +1,2 @@
+# ARTISTS
+All artists
