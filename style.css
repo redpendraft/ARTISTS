@@ -15,7 +15,6 @@ body {
     height: 100vh;
     padding: 20px;
     box-sizing: border-box;
-    position: relative; /* Добавляем, чтобы timeline был липким */
 }
 
 .right {
@@ -34,35 +33,47 @@ body {
     align-items: center;
 }
 
+#target-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: none;
+    border: 2px solid #333;
+}
+
+/* Стили для временной шкалы */
 .timeline {
-    position: sticky;
-    top: 0;
-    background-color: #ddd;
-    border-bottom: 2px solid #bbb;
-    height: 40px;
+    position: relative;
+    height: 30px;
+    border-bottom: 2px solid #999;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
-    box-sizing: border-box;
-    z-index: 10;
 }
 
 .year-marker {
-    font-size: 0.8em;
-    font-weight: bold;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    font-size: 14px;
     color: #555;
-    position: relative;
     white-space: nowrap;
 }
 
+/* Чтобы маркеры не наезжали друг на друга, подгоняем их положение */
+.timeline .year-marker:nth-child(n+2) { /* Применяем ко всем, кроме первого */
+  transform-origin: 0 0;
+  left: 5%; /* Смещение каждого на 5% */
+}
+
+
+/* Стили для блоков художников */
 .artist-details {
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 8px;
     overflow: hidden;
-    position: relative;
 }
 
 .artist {
@@ -79,33 +90,19 @@ body {
     text-align: left;
     background-color: #ddd;
     padding: 10px;
-    overflow: hidden;
 }
 
 .arts p {
-    font-size: 0.9em;
-    line-height: 1.4;
+    margin-top: 0;
 }
 
-.art {
-    margin: 5px;
-    padding: 8px 12px;
-    background-color: #aab;
-    border: none;
-    border-radius: 5px;
+.arts .art {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #aaa;
+    background-color: #eee;
     cursor: pointer;
-    font-weight: bold;
-    color: white;
-}
-
-.art:hover {
-    background-color: #889;
-}
-
-#target-image {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-    display: none;
-    transition: transform 0.3s ease-in-out;
+    text-align: left;
 }
