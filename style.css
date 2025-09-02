@@ -10,7 +10,7 @@ body {
 
 .left {
     flex: 1;
-    overflow-y: scroll;
+    overflow-y: scroll; /* Добавил скролл для вертикального просмотра */
     background-color: #f0f0f0;
     height: 100vh;
     padding: 20px;
@@ -28,17 +28,9 @@ body {
     overflow: auto;
     padding: 20px;
     box-sizing: border-box;
-    display: flex;
+    display: flex; /* Используем flexbox для центрирования изображения */
     justify-content: center;
     align-items: center;
-}
-
-#target-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    display: none;
-    border: 2px solid #333;
 }
 
 /* Стили для временной шкалы */
@@ -54,26 +46,18 @@ body {
 
 .year-marker {
     position: absolute;
-    transform: rotate(-90deg);
-    transform-origin: left top;
     font-size: 14px;
     color: #555;
     white-space: nowrap;
-}
-
-/* Чтобы маркеры не наезжали друг на друга, подгоняем их положение */
-.timeline .year-marker:nth-child(n+2) { /* Применяем ко всем, кроме первого */
-  transform-origin: 0 0;
-  left: 5%; /* Смещение каждого на 5% */
+    transform: none; /* Убираем поворот */
 }
 
 
-/* Стили для блоков художников */
 .artist-details {
     margin-top: 10px;
     margin-bottom: 20px;
-    border-radius: 8px;
-    overflow: hidden;
+    border-radius: 8px; /* Скругленные углы */
+    overflow: hidden; /* Скрываем излишки */
 }
 
 .artist {
@@ -89,20 +73,35 @@ body {
 .arts {
     text-align: left;
     background-color: #ddd;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
 }
 
 .arts p {
-    margin-top: 0;
+    margin: 0 0 15px;
+    font-size: 0.9em;
+    line-height: 1.4;
 }
 
-.arts .art {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 5px;
+.art {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 8px 15px;
     border: 1px solid #aaa;
-    background-color: #eee;
+    border-radius: 5px;
+    background-color: #fff;
     cursor: pointer;
-    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.art:hover {
+    background-color: #f0f0f0;
+    border-color: #888;
+}
+
+#target-image {
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: contain; /* Сохраняем пропорции изображения */
+    display: none;
 }
