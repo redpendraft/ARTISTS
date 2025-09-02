@@ -7,12 +7,12 @@
     "description": "Итальянский художник и архитектор раннего Возрождения, считается одним из ключевых мастеров, которые заложили основы нового художественного языка. Отказавшись от византийских канонов, он придал своим фигурам объем и эмоциональную глубину.",
     "artworks": [
       {
-        "title": "«Оплакивание Христа»",
+        "title": "Оплакивание Христа",
         "date": "1305",
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Giotto_-_Scrovegni_-_36_-_Lamentation_%28The_Mourning_of_Christ%29.jpg"
       },
       {
-        "title": "«Чудо источника»",
+        "title": "Чудо источника",
         "date": "1300",
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giotto_-_Miracle_of_the_Spring_%28c.1297-1300%29.jpg"
       }
