@@ -2,122 +2,43 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Художники и временная шкала</title>
+    <title>Генератор Портрета Live</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-    <div class="left">
-        <div class="timeline" style="width: 7000px;">
-            <div class="year-marker" style="left: 0px;">1250</div>
-            <div class="year-marker" style="left: 250px;">1275</div>
-            <div class="year-marker" style="left: 500px;">1300</div>
-            <div class="year-marker" style="left: 750px;">1325</div>
-            <div class="year-marker" style="left: 1000px;">1350</div>
-            <div class="year-marker" style="left: 1250px;">1375</div>
-            <div class="year-marker" style="left: 1500px;">1400</div>
-            <div class="year-marker" style="left: 1750px;">1425</div>
-            <div class="year-marker" style="left: 2000px;">1450</div>
-            <div class="year-marker" style="left: 2250px;">1475</div>
-            <div class="year-marker" style="left: 2500px;">1500</div>
-            <div class="year-marker" style="left: 2750px;">1525</div>
-            <div class="year-marker" style="left: 3000px;">1550</div>
-            <div class="year-marker" style="left: 3250px;">1575</div>
-            <div class="year-marker" style="left: 3500px;">1600</div>
-            <div class="year-marker" style="left: 3750px;">1625</div>
-            <div class="year-marker" style="left: 4000px;">1650</div>
-            <div class="year-marker" style="left: 4250px;">1675</div>
-            <div class="year-marker" style="left: 4500px;">1700</div>
-            <div class="year-marker" style="left: 4750px;">1725</div>
-            <div class="year-marker" style="left: 5000px;">1750</div>
-            <div class="year-marker" style="left: 5250px;">1775</div>
-            <div class="year-marker" style="left: 5500px;">1800</div>
-            <div class="year-marker" style="left: 5750px;">1825</div>
-            <div class="year-marker" style="left: 6000px;">1850</div>
-            <div class="year-marker" style="left: 6250px;">1875</div>
-            <div class="year-marker" style="left: 6500px;">1900</div>
-            <div class="year-marker" style="left: 6750px;">1925</div>
-            <div class="year-marker" style="left: 7000px;">1950</div>
-        </div>
-        
-        <div id="artists-container">
-            </div>
-    </div>
+<div class="controls">
+    <h3>Настройки</h3>
 
-    <div class="right">
-        <img id="target-image" src="" alt="Выбранное изображение">
-    </div>
+    <label>Голова:
+        <select class="trigger" id="headSelect">
+            <option value="head_01.png">Вариант 1</option>
+            <option value="head_02.png">Вариант 2</option>
+        </select>
+    </label>
+
+    <label>Волосы:
+        <select class="trigger" id="hairSelect">
+            <option value="hair_01.png">Вариант 1</option>
+            <option value="hair_02.png">Вариант 2</option>
+        </select>
+    </label>
+
+    <hr>
+
+    <label>Цвет кожи:
+        <input type="color" class="trigger" id="skinColor" value="#c19e83">
+    </label>
+
+    <label>Цвет волос:
+        <input type="color" class="trigger" id="hairColor" value="#364050">
+    </label>
 </div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const artistsContainer = document.getElementById('artists-container');
-        const startYear = 1250;
+<div class="preview">
+    <canvas id="portraitCanvas"></canvas>
+</div>
 
-        function showImage(imageSrc) {
-            const targetImage = document.getElementById('target-image');
-            targetImage.src = imageSrc;
-            targetImage.style.display = 'block';
-        }
-
-        function createArtistElement(artist) {
-            const details = document.createElement('details');
-            details.classList.add('artist-details');
-
-            const summary = document.createElement('summary');
-            summary.classList.add('artist');
-            summary.innerHTML = `${artist.name} <i>(${artist.years})</i>`;
-
-            const artsDiv = document.createElement('div');
-            artsDiv.classList.add('arts');
-
-            const description = document.createElement('p');
-            description.textContent = artist.description;
-            artsDiv.appendChild(description);
-
-            artist.artworks.forEach(art => {
-                const button = document.createElement('button');
-                button.classList.add('art');
-                button.textContent = `«${art.title}» ${art.date}`;
-                button.onclick = () => showImage(art.image);
-                artsDiv.appendChild(button);
-            });
-
-            details.appendChild(summary);
-            details.appendChild(artsDiv);
-
-            return details;
-        }
-
-        // Загрузка данных из JSON-файла
-        fetch('artists.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Не удалось загрузить artists.json');
-                }
-                return response.json();
-            })
-            .then(data => {
-                data.forEach(artistData => {
-                    const artistElement = createArtistElement(artistData);
-                    const lifeSpan = artistData.death - artistData.birth;
-
-                    const birthOffset = (artistData.birth - startYear) * 10;
-                    const widthInPixels = lifeSpan * 10;
-
-                    artistElement.style.marginLeft = `${birthOffset}px`;
-                    artistElement.style.width = `${widthInPixels}px`;
-                    artistsContainer.appendChild(artistElement);
-                });
-            })
-            .catch(error => {
-                console.error('Ошибка при загрузке данных:', error);
-                artistsContainer.innerHTML = `<p style="color: red;">Ошибка: не удалось загрузить данные художников. Пожалуйста, убедитесь, что файл artists.json находится в той же папке и запущен локальный сервер.</p>`;
-            });
-    });
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
